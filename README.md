@@ -37,6 +37,13 @@ aggreagte,annotateを使った売上データの集計例
 | quantity  |  注文数 |
 | created_date |  注文日 |
 
+## サンプルデータのロード
+```console
+pip install -r requirements.txt
+
+python manage.py loaddata --format=yaml ec_site/fixtures/sample_data.yaml
+```
+
 ## 各テーブルのレコード数をチェック
 
 Looping with reference to own table only
